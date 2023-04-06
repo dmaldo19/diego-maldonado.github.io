@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <title>Primera página web</title>
+</head>
+
+<body>
+
+    <!-- Para comentar alt+shift+a -->
+    <!-- Tablericons página para guardar fotos en svg -->
+    <!-- Ir a la pagina HTML tutorial -->
+
+    <header>
+        <h1 class="titulo-principal">Diego Alberto Maldonado Melendez</h1>
+    </header> <!-- Cabecera -->
+
+    <div class="bground">
+
+        <nav class="contenedor navegador">
+            <a href="/index.html">Inicio</a>
+            <a href="/Sobre_Mi.html">Sobre mi</a>
+            <a href="/Clientes.html">Clientes</a>
+            <a href="/Contacto.html">Contacto</a>
+        </nav> <!-- Navegador -->
+
+    </div>
+
+    <main class="sombreado">
+        <h2>Sobre Mí.</h2>
+
+        <div class="contenedor-sobreMi">
+            <section class="servicio">
+                <h3>Soy un estudiante de ingeniería en computación.</h3>
+                <p>
+                    Me apasiona mucho lo que se puede lograr con la programación, 
+                    además que es una profesión con buen mercado laboral. Me gusta el ambiente 
+                    que hay en la universidad, afortunadamente, he hecho muy buenos amigos. 
+                    considero que tengo mucho por aprender, pero me emociona saberlo, porque 
+                    me motiva a esforzarme.
+                </p>
+            </section>
+
+            <section>
+                <img src="foto_sobre_mi.webp" alt="" class="foto-sobreMi" usemap="sobre-mi">
+                <map name="sobre-mi">
+                    <area shape="rect" coords="1200, 1200, 0, 0" href="index.html" alt="">
+                    <area shape="rect" coords="50,0,100,50" href="Clientes.html" alt="">
+                    <area shape="rect" coords="75,75,25" href="Contacto.html" alt="">
+                </map>
+            </section>
+        </div>
+
+        <h2>Mis aficiones:</h2>
+        <div class="contenedor-principal">
+            <section class="servicio">
+                <h3>Música</h3>
+                <div class="iconos-aficiones iconos-circulo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5" />
+                    </svg>
+                </div>
+            </section>
+        
+            <section class="servicio">
+                <h3>Deportes</h3>
+                <div class="iconos-aficiones iconos-circulo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ball-football" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76 -5.55z" />
+                        <path d="M12 7v-4m3 13l2.5 3m-.74 -8.55l3.74 -1.45m-11.44 7.05l-2.56 2.95m.74 -8.55l-3.74 -1.45" />
+                    </svg>
+                </div>
+            </section>
+        
+            <section class="servicio">
+                <h3>Familia</h3>
+                <div class="iconos-aficiones iconos-circulo">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-friends" width="64" height="64" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="7" cy="5" r="2" />
+                        <path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" />
+                        <circle cx="17" cy="5" r="2" />
+                        <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
+                    </svg>
+                </div>
+            </section>
+        </div>
+
+        <h2>Yo con la música</h2>
+        <div>
+            <h3>A continuación, una pequeña muestra de yo tocando música.</h3>
+            <div class="video-youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/alJYLLxCF4k?start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
